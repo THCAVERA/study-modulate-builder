@@ -1,5 +1,4 @@
 server.port: 8081
-
 sqs:
   region: ${SQS_ACCESS_REGION}
   key: ${SQS_ACCESS_KEY}
