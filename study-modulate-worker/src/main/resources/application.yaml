@@ -1,0 +1,7 @@
+server.port: 8081
+
+sqs:
+  region: ${SQS_ACCESS_REGION}
+  key: ${SQS_ACCESS_KEY}
+  secret: ${SQS_ACCESS_SECRET}
+  createPessoa: ${SQS_CREATE_PESSOA_QUEUE_NAME}
