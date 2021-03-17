@@ -2,12 +2,12 @@ package com.br.modulate.common.model;
 
 import lombok.*;
 
+@Data
 @Builder
-@Getter
-@Setter
-@AllArgsConstructor
 @NoArgsConstructor
-public class Pessoa {
+@AllArgsConstructor
+public class Pessoa implements Cloneable {
 
     private String nome;
+
 }

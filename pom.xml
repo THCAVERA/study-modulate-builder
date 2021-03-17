@@ -40,9 +40,7 @@
                 <scope>import</scope>
             </dependency>
         </dependencies>
-
     </dependencyManagement>
-
     <repositories>
         <repository>
             <id>spring-milestones</id>
@@ -53,7 +51,6 @@
             </snapshots>
         </repository>
     </repositories>
-
     <dependencies>
         <dependency>
             <groupId>org.projectlombok</groupId>
